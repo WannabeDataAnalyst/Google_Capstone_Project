@@ -29,7 +29,7 @@ FROM `capstone-project-338712.Daily_Activity.Weight_Data`
 
 
 
--- Comparing users average sleep minutes with their average total steps.
+-- Is there a relationship between users average sleep minutes and their average total steps?
 SELECT  
   Activity_Summary.Id,
   CAST(AVG(TotalSteps) AS INT) AS Avg_Total_Steps,
