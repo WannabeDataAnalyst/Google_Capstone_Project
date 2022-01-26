@@ -5,6 +5,7 @@ SELECT
 FROM `capstone-project-338712.Daily_Activity.Activity_Summary`
 
 
+
 --How long were users active and how long were they sedentary?
 SELECT 
   CAST(AVG(SedentaryMinutes) AS INT) AS Sedentary_Minutes,
@@ -13,7 +14,7 @@ SELECT
   CAST(AVG(VeryActiveMinutes) AS INT) AS Very_Active_Minutes,
   CAST(AVG(SedentaryMinutes) + AVG(LightlyActiveMinutes) + AVG(FairlyActiveMinutes) + AVG(VeryActiveMinutes) AS INT) AS Total_Minutes
   
-  FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
+FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
 
   
 
@@ -109,14 +110,12 @@ WHERE TotalMinutesAsleep > 420
 
 
 
-
 --How long were users who walked less than 5000 steps, sedentary but were also very active during the day. 
 SELECT 
  Id, 
  ActivityDate,
  VeryActiveMinutes,
  SedentaryMinutes,
- 
 
 FROM `capstone-project-338712.Daily_Activity.Activity_Summary` 
 
@@ -137,7 +136,7 @@ WHERE CONCAT(Id, Date, Calories) IN
   (SELECT 
     CONCAT(Id, Date, Max(Calories))
 
-  FROM capstone-project-338712.Daily_Activity.Hourly_Calories
+   FROM capstone-project-338712.Daily_Activity.Hourly_Calories
 
     GROUP BY Id, Date) 
 
