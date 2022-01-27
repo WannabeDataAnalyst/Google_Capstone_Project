@@ -21,3 +21,6 @@ I selected the date column (column B) and formatted it to date to remove the tim
 
 --Change header for data mapping purposes
 I changed the date column header from “SleepDay” to “Date”
+
+4. I have spot checked the data for anomalies and "null" strings but didn’t find any. 
+
