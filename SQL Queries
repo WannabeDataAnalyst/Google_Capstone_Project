@@ -1,4 +1,4 @@
---How many Fitbit users participated?
+-- How many Fitbit users participated?
 SELECT 
   COUNT(Distinct Id) AS Number_of_Participants
 
@@ -6,7 +6,7 @@ FROM `capstone-project-338712.Daily_Activity.Activity_Summary`
 
 
 
---How long were users active and how long were they sedentary?
+-- How long were users active and how long were they sedentary?
 SELECT 
   CAST(AVG(SedentaryMinutes) AS INT) AS Sedentary_Minutes,
   CAST(AVG(LightlyActiveMinutes) AS INT) AS Lightly_Active_Minutes,
@@ -18,7 +18,7 @@ FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
 
   
 
---What is the average BMI of each participant that have BMI data?
+-- What is the average BMI of each participant that have BMI data?
 SELECT  
   Id,
   CAST( AVG(BMI) AS INT) AS Average_BMI
@@ -46,7 +46,7 @@ FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
  
  
 
---Identifying if users were underweight, ideal weight or overweight according to their BMI each day.
+-- Identifying if users were underweight, ideal weight or overweight according to their BMI each day.
 SELECT
  Id,
  Date,
@@ -64,7 +64,7 @@ FROM capstone-project-338712.Daily_Activity.Weight_Data AS Weight_Data
 
 
 
---Identify days when overweight users were very active, walked more than 3000 steps and slept less than 7 hours.
+-- Identify days when overweight users were very active, walked more than 3000 steps and slept less than 7 hours.
 SELECT 
   Activity_Summary.Id,
   ActivityDate AS Activity_Date,
@@ -91,7 +91,7 @@ WHERE BMI >= 25
 
 
 
---Identify days when users slept more than 7 hours and walked more than 3000 steps.
+-- Identify days when users slept more than 7 hours and walked more than 3000 steps.
 SELECT 
   Activity_Summary.Id,
   Date,
@@ -110,7 +110,7 @@ WHERE TotalMinutesAsleep > 420
 
 
 
---How long were users who walked less than 5000 steps, sedentary but were also very active during the day. 
+-- How long were users who walked less than 5000 steps, sedentary but were also very active during the day. 
 SELECT 
  Id, 
  ActivityDate,
@@ -127,7 +127,7 @@ ORDER BY SedentaryMinutes DESC
 
 
 
---Identify the hour of the day that each participant burnt the most calories. 
+-- Identify the hour of the day that each participant burnt the most calories. 
 SELECT *
 
 FROM capstone-project-338712.Daily_Activity.Hourly_Calories
