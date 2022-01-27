@@ -2,9 +2,9 @@
 *In the documents above you will find:*
 1. Excel Files - The data used for this project. 
 2. Process - The process I followed from start to finish.
-3. R Queries - Includes analysis using R.
-4. README - The file you are presently reading which includes a narrative of the project objectives and findings below. 
-5. SQL Queries - Includes analysis using SQL. 
+3. R Queries - Analysis using R.
+4. README - The file you are presently reading which includes a narrative of the project objectives and findings. 
+5. SQL Queries - Analysis using SQL. 
  
 *Below you will find a narrative including details about the objectives of the report and; analaysis and results using SQL, R and Tableau.*
 
