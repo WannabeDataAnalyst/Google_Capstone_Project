@@ -5,7 +5,7 @@
 3. README - The file you are presently reading which includes a narrative of the project objectives and findings.
 4. SQL Queries - Analysis using SQL. 
 
-*Below you will find a narrative including details about the objectives of the report and; analaysis and results using SQL, R and Tableau.*
+*Below you will find a narrative including details about the objectives of the report and; analysis and results using SQL, R and Tableau.*
 
 ## Contents
 
