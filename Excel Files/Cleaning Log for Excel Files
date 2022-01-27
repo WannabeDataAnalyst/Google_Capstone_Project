@@ -1,1 +1,23 @@
+I made a copy of the following documents before making any changes to the originals. 
 
+dailyActivity_merged.csv
+weightLogInfo_merged.csv, 
+heartrate_seconds_merged.csv, 
+hourlyCalories_merged.csv,
+sleepDay_merged
+
+--Separate the date from the date and time in each cell. 
+I inserted two columns next to the Date column (column B) and used the INT function to separate the date in column C. 
+I then used formula =B2-C2 to get the time in column D. 
+I formatted the columns to date and time, respectively. 
+I copied and then pasted column C as values. I did the same to column D.  
+I then deleted column B.
+When I imported this data into SQL, I checked to see that SQL recognized it as Time and not as a String. 
+
+sleepDay_merged.csv 
+--Format the date as it contained date and time in the same cell.
+This file contained relatively few rows and all the times in each row upon inspection were midnight. 
+I selected the date column (column B) and formatted it to date to remove the time. 
+
+--Change header for data mapping purposes
+I changed the date column header from “SleepDay” to “Date”
