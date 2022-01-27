@@ -24,6 +24,7 @@
 4.	Analysis
 5.	Conclusion
 6.	Reference List
+7.	Appendix
 
 # Executive Summary
 The purpose of this analysis is to analyze how people use their Fitbit smart devices to find opportunities for growth and provide recommendations to guide Bellabeat’s marketing strategy.  
@@ -31,9 +32,6 @@ After cleaning, and analyzing the data, I found that most smart watch users are 
 Additionally, half of the participants (four out of eight) that provided BMI data were overweight and half (twelve out of twenty four) slept less than the recommended seven hours (How much sleep do I need?, 2019).  
 However, most users walked more than the recommended 5000 steps a day which is considered necessary as shown by a study done by the University of Texas (Lindsay Bottoms, The Conversation, 2021). 
 Bellabeat can focus their marketing strategy on showing how their Time watch caters to the individual needs of customers by providing them with suggestions to help them maintain a healthy body since most people buy smart watches without displays to track health related metrics.  
-
-Insert Pic Here
-
    
 # Introduction
 
