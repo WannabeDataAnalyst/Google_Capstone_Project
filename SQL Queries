@@ -1,12 +1,16 @@
 -- How many Fitbit users participated?
+
+```
 SELECT 
   COUNT(Distinct Id) AS Number_of_Participants
 
 FROM `capstone-project-338712.Daily_Activity.Activity_Summary`
-
+```
 
 
 -- How long were users active and how long were they sedentary?
+
+```
 SELECT 
   CAST(AVG(SedentaryMinutes) AS INT) AS Sedentary_Minutes,
   CAST(AVG(LightlyActiveMinutes) AS INT) AS Lightly_Active_Minutes,
@@ -15,10 +19,12 @@ SELECT
   CAST(AVG(SedentaryMinutes) + AVG(LightlyActiveMinutes) + AVG(FairlyActiveMinutes) + AVG(VeryActiveMinutes) AS INT) AS Total_Minutes
   
 FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
-
+```
   
 
 -- What is the average BMI of each participant that have BMI data?
+
+```
 SELECT  
   Id,
   CAST( AVG(BMI) AS INT) AS Average_BMI
@@ -26,10 +32,12 @@ SELECT
 FROM `capstone-project-338712.Daily_Activity.Weight_Data`
 
   GROUP BY Id  
-
+```
 
 
 -- Is there a relationship between users average sleep minutes and their average total steps?
+
+```
 SELECT  
   Activity_Summary.Id,
   CAST(AVG(TotalSteps) AS INT) AS Avg_Total_Steps,
@@ -43,10 +51,12 @@ FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
  GROUP BY Id
 
  ORDER BY Avg_Sleep_Minutes
- 
+ ```
  
 
 -- Identifying if users were underweight, ideal weight or overweight according to their BMI each day.
+
+```
 SELECT
  Id,
  Date,
@@ -61,10 +71,12 @@ SELECT
  END AS Result
 
 FROM capstone-project-338712.Daily_Activity.Weight_Data AS Weight_Data
-
+```
 
 
 -- Identify days when overweight users were very active, walked more than 3000 steps and slept less than 7 hours.
+
+```
 SELECT 
   Activity_Summary.Id,
   ActivityDate AS Activity_Date,
@@ -88,10 +100,12 @@ WHERE BMI >= 25
  AND TotalSteps > 3000
 
  ORDER BY Very_Active_Minutes
-
+```
 
 
 -- Identify days when users slept more than 7 hours and walked more than 3000 steps.
+
+```
 SELECT 
   Activity_Summary.Id,
   Date,
@@ -107,10 +121,12 @@ FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
 WHERE TotalMinutesAsleep > 420
 
   AND TotalSteps > 3000
-
+```
 
 
 -- How long were users who walked less than 5000 steps, sedentary but were also very active during the day. 
+
+```
 SELECT 
  Id, 
  ActivityDate,
@@ -124,10 +140,12 @@ WHERE TotalSteps < 5000
 AND VeryActiveMinutes > 1
 
 ORDER BY SedentaryMinutes DESC
-
+```
 
 
 -- Identify the hour of the day that each participant burnt the most calories. 
+
+```
 SELECT *
 
 FROM capstone-project-338712.Daily_Activity.Hourly_Calories
@@ -141,3 +159,4 @@ WHERE CONCAT(Id, Date, Calories) IN
     GROUP BY Id, Date) 
 
  ORDER BY Id, Date, Calories 
+```
