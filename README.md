@@ -1,11 +1,12 @@
-# Google Capstone Project
+# Project Files Guide 
 *In the documents above you will find:*
 1. Excel Files - The data used for this project. 
 2. Process - The process I followed from start to finish.
 3. R Queries - Analysis using R.
-4. README - The file you are presently reading which includes a narrative of the project objectives and findings. 
+4. README - The file you are presently reading which includes a narrative of the project objectives and findings.
 5. SQL Queries - Analysis using SQL. 
  
+ # Narration of Project Objectives and Findings
 *Below you will find a narrative including details about the objectives of the report and; analaysis and results using SQL, R and Tableau.*
 
 ## Contents
