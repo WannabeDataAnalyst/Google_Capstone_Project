@@ -1,0 +1,88 @@
+---
+title: "Google_Capstone_Project"
+author: "Syd Naidoo"
+date: "1/27/2022"
+output: html_document
+---
+
+## Introduction
+The following includes an analysis of Fitbit users for Bellabeat's(a smart device company). One of the owners of Bellabeat's would like to inform marketing strategies by using data of Fitbit users and ultimately find growth opportunities.  
+
+
+## Upload CSV files to R
+I have uploaded three CSV files relating to weight, heart rates, daily activity, sleep and calories burned per hour to the project folder. 
+
+##Install and load R Package
+
+```{Using tidyverse}
+
+install.packages('tidyverse')
+library(tidyverse)
+```
+
+## Loading CSV Files
+I will create dataframes and read CSV files from the dataset. 
+
+```{read CSV files}
+
+daily_activity <- read.csv("dailyActivity_merged.csv")
+
+sleep_minutes <- read.csv("sleepDay_merged.csv")
+
+weight_data <- read.csv("weightLogInfo_merged.csv")
+
+hourly_calories <- {"hourlyCalories_merged.csv")
+```
+
+## Exploring CSVs
+
+```{daily_activtiy headers}
+
+head(daily_activity)
+```
+We see that the daily activity CSV includes data about user IDs, dates of activity, total steps taken each day, distances traveled, minutes of activity and calories eaten. 
+
+```{sleep_minutes columns}
+colnames(sleep_minutes)
+```
+We see that this CSV includes data bout user IDs, date, total minutes that users were asleep and in bed. 
+
+## Analysis of CSVs
+
+```{How many participants provided data for activity, sleep and weight?}
+
+n_distinct(daily_activity$Id)
+n_distinct(sleep_minutes$Id)
+n_distinct(weight_data$Id)
+```
+
+```{How many observations are in each dataframe?}
+
+nrow(daily_activity)
+nrow(sleep_minutes)
+nrow(weight_data)
+```
+
+```{Quick summaries of data}
+
+daily_activity %>%
+select(TotalSteps, TotalDistance, SedentaryMinutes) %>%
+summary()
+
+sleep_minutes %>%
+select(SleepDay, TotalMinutesAsleep) %>%
+summary()
+```
+
+```{PLotting with ggplot2 to find out if people who took more steps were also very active during the day}
+
+ggplot(data = daily_activity, aes(x=TotalSteps, y=VeryActiveMinutes)) +
+geom_point()
+```
+
+```{Merging datasets to see how many particpants have data for BMI and steps taken each day}
+
+combined_data <- merge(daily_activity, weight_data, by="Id")
+n_distinct(combined_data$Id)
+```
+
