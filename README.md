@@ -12,3 +12,12 @@ The documents above include:
 3. R Queries - Includes analysis using R. 
 4. Excel Files - The data used for this project. 
 ![Bellabeat](https://user-images.githubusercontent.com/91411766/151315777-8633641b-ca25-42fa-a38f-7f3928c78497.JPG)
+
+SELECT 
+  CAST(AVG(SedentaryMinutes) AS INT) AS Sedentary_Minutes,
+  CAST(AVG(LightlyActiveMinutes) AS INT) AS Lightly_Active_Minutes,
+  CAST(AVG(FairlyActiveMinutes) AS INT) AS Fairly_Active_Minutes,
+  CAST(AVG(VeryActiveMinutes) AS INT) AS Very_Active_Minutes,
+  CAST(AVG(SedentaryMinutes) + AVG(LightlyActiveMinutes) + AVG(FairlyActiveMinutes) + AVG(VeryActiveMinutes) AS INT) AS Total_Minutes
+  
+  FROM capstone-project-338712.Daily_Activity.Activity_Summary AS Activity_Summary
