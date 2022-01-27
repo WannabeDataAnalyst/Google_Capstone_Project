@@ -2,8 +2,9 @@
 This repository was created to store files associated with the project titled, Google Capstone Project. 
 The project relates to Bellabeat's(a smart device company). Urška Sršen, cofounder and Chief Creative Officer of Bellabeat would like more insight into how consumers use their smart devices to guide Bellabeat's marketing strategy. She believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. 
 The documents above include:
-1. Narrative report - A narrative report with details about the objectives of the report and; analaysis and results using SQL, R and Tableau. 
-                    - The process I followed for this project. 
+1. Narrative report 
+- The process I followed for this project. 
+- A narrative report with details about the objectives of the report and; analaysis and results using SQL, R and Tableau. 
 2. SQL Queries - Includes analysis done using SQL. 
 3. R Queries - Includes analysis using R. 
 4. Excel Files - The data used for this project. 
