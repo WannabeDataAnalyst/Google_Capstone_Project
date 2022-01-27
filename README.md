@@ -8,3 +8,4 @@ The documents above include:
 2. SQL Queries - Includes analysis done using SQL. 
 3. R Queries - Includes analysis using R. 
 4. Excel Files - The data used for this project. 
+![Bellabeat](https://user-images.githubusercontent.com/91411766/151315777-8633641b-ca25-42fa-a38f-7f3928c78497.JPG)
