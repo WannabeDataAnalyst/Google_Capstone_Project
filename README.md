@@ -16,7 +16,7 @@
 3.	What is the average BMI level of each participant?
 4.	Did users sleep at least 7 hours each day?
 5.	What are some trends in smart device usage?
-6.	How could these trends apply to Bellabeat customers?
+6.	How could these trends apply to Bellabeat's customers?
 7.	How could these trends help influence Bellabeat marketing strategy?
 
 
@@ -33,7 +33,7 @@
 The purpose of this analysis is to analyze how people use their Fitbit smart devices to find opportunities for growth and provide recommendations to guide Bellabeat’s marketing strategy.  
 After cleaning, and analyzing the data, I found that most smart watch users are active for only a few hours a day. This may indicate that most consumers of smart watches are not blue-collar workers. 
 Additionally, half of the participants (four out of eight) that provided BMI data were overweight and half (twelve out of twenty four) slept less than the recommended seven hours (How much sleep do I need?, 2019).  
-However, most users walked more than the recommended 5000 steps a day which is considered necessary as shown by a study done by the University of Texas (Lindsay Bottoms, The Conversation, 2021). 
+However, most users walked more than the recommended 5000 steps a day which is considered necessary as shown in a study done by the University of Texas (Lindsay Bottoms, The Conversation, 2021). 
 Bellabeat can focus their marketing strategy on showing how their Time watch caters to the individual needs of customers by providing them with suggestions to help them maintain a healthy body since most people buy smart watches without displays to track health related metrics.  
 
 # Introduction
@@ -44,30 +44,30 @@ The Time watch by Bellabeat’s is the product I chose to focus on. People who p
 It gives people insight into their daily lifestyle by providing metrics to help inform their dietary and activity decisions. 
 The Time watch is focused on women and provides menstrual cycle support through tracking metrics and providing users with information via the APP about each stage of their menstruation cycle. 
 Together, the Time watch and the APP have features such as monitoring stress and offers yoga routines and meditation to help manage stress levels. 
-In addition, personalized exercise routines and meal plans are also provided, and the Time watch helps monitor calories burned each and compare that to the amount of food consumed to manage weight and BMI levels. 
+In addition, personalized exercise routines and meal plans are also provided, and the Time watch helps monitor calories burned each day and compares it to the amount of food consumed to manage weight and BMI levels. 
 
 # Data Used for Analysis
 
-Urška Sršen has directed me to a dataset called FitBit Fitness Tracker Data that was made available through Mobius and which I downloaded from the Kaggle website.
+Urška Sršen has directed me to a dataset (about thirty three Fitbit smart device users who participated in a study) called FitBit Fitness Tracker Data that was made available through Mobius and which I downloaded from the Kaggle website.
 
 Some limitations and assumptions of the data provided:
 
 1.	The dataset included just 33 participants for activity. 24 users provided information about sleep, 8 users provided information about their BMI levels and just 7 had heart rate data. 
 2.	It is unknown whether participants are male or female and Bellabeat’s focuses on female customers. 
-3.	The time zone was not provided. I assumed that it was given according to each user’s location eg. 12:00 is midday at their location. 
+3.	The time zone was not provided. I assumed that it was given according to each user’s location eg. 12:00 is midday in their location. 
 4.	The criteria that differentiate intensity is unknown. 
 5.	Participants ages were not provided and so their recommended caloric needs and recommended heart rate range could not be calculated (What heart rate is too high? Is 200 bpm bad? Chart, no date).
 6.	Distance metrics are unknown. I assumed kilometers. 
 
-The metadata shows that the data was created on the 16th of December 2020, however, from my research it appears that people buy them mostly to monitor their activity and the most significant use that I came across would be for smart watches to help identify when people need medical care. While smart watches can monitor metrics like heart rates and indicate when a user’s heart rate may be too low, these features are still in its infancy stage as it would also need to check other health metrics such as blood pressure to be more useful. Additionally, use for health care decisions will require evaluation of these devices for that purpose by the relevant authorities in each country. 
+The metadata shows that the data was created on the 16th of December 2020. However, there hasn’t been any significant updates to smart watches since then which makes this data current. From my research it appears that people buy smart watches mostly to monitor their activity and the most promising future use that I came across would be for smart watches to help identify when people need medical care. While smart watches can monitor metrics like heart rates and indicate when a user’s heart rate may be too low, medical care features are still in its infancy stage as the smart device would also need to check other health metrics such as blood pressure to be more useful. Additionally, use for health care decisions will require evaluation of these devices for that purpose by the relevant authorities in each country. 
 
 # Findings
 
-Thirty-three participants provided activity data. I found that the average activity time was 193 minutes or less each day for these Fitbit users. Additionally, users were mostly lightly active with the average fairly active minutes and very active minutes being 14 and 21 minutes, respectively. 
+Thirty-three participants provided activity data. I found that the average activity time was 193 minutes or less each day for participants. Additionally, users were mostly lightly active with the average fairly active minutes and very active minutes being 14 and 21 minutes, respectively. 
 
 Only eight of the thirty-three users provided data on BMI levels. I found that four of these users were overweight as their BMI levels were over 25. 
 
-Twenty four users provided data about sleep. Twelve of these users slept less than 7 hours and may end up with cardiovascular disease, diabetes as well as increased ghrelin levels which may result in increased ghrelin levels and decreased leptin levels which result in a lack of appetite control (Can overeating cause sleep disturbances?, 2020). 
+Twenty-four users provided data about sleep. Twelve of these users slept less than 7 hours and may end up with cardiovascular disease, diabetes as well as increased ghrelin levels and decreased leptin levels which result in a lack of appetite control (Can overeating cause sleep disturbances?, 2020). 
 Even though these users slept less than 7 hours, most still walked more than the 5000 steps a day which is recommended to metabolize fat and prevent many health-related problems (Lindsay Bottoms, The Conversation, 2021).  
 
 
@@ -83,17 +83,20 @@ I also found that most users who were very active for just a few minutes each da
 
 Assuming a client logs their daily diet manually the Time watch can be used in conjunction with the Bellabeat App to track their daily calorie needs and provide suggestions of foods with the nutrition that the client lacks for the day or should be eaten or avoided due to menstruation. (Which foods to eat and avoid during your period, no date). 
 
-The Time watch offers people the ability to stay in optimal health by not only tracking the number of calories burned in their daily activities but also tracks heart rates which offer insights into when people should consult a doctor eg. if they have a high or low resting heart rate (Bradycardia, no date).
+The Time watch offers people the ability to stay in optimal health by tracking heart rates which offer insight into when people should consult a doctor eg. if they have a high or low resting heart rate (Bradycardia, no date).
 For example, if your heart rate is higher than normal in the morning it could be a sign of impending an impending cold or flu. An increase in your resting heart rate over time may be a sign of future heart trouble.
 
-Additionally, if people input their weight and height into the Bellabeat App, their BMI can be calculated, and the Time watch can help them (by tracking data such as calories burned and heart rates) move towards or stay in the recommended BMI ranges of a healthy adult. 
+Additionally, if people input their weight and height into the Bellabeat App, their BMI can be calculated, and the Time watch can help them (by tracking data such as calories burned) move towards or stay in the recommended BMI ranges of a healthy adult. 
 
-Clients should be made more aware of the benefits of tracking metrics like nutrition, heart rates and BMI levels. Marketing strategies should focus on these benefits. The APP can be upgraded to provide more personalized suggestions for not just exercise routines and meals plans but also for snacks with nutrition that a user may be lacking for the day or require during menstruation, adjusting calories during menstruation when customers are likely to be less active or seeing a doctor due to an irregular heart rate. Data about the hour when each user was the most active each day was identified in my analysis. If a pattern exists for individual users, Bellabeat could use this data to communicate with clients around this time by sending them appropriate notifications such as healthy snack suggestions as they are likely to reach for a snack after their most active hour.    
+Clients should be made more aware of the benefits of tracking metrics like nutrition, heart rates and BMI levels. Marketing strategies should focus on these benefits. The APP can be upgraded to provide more personalized suggestions for not just exercise routines and meals plans but also for snacks with nutrition that a user may be lacking for the day or require during menstruation, adjusting calories during menstruation when customers are likely to be less active or seeing a doctor due to an irregular heart rate. Data about the hour when each user was the most active each day was identified in my analysis. If a pattern exists for individual users, Bellabeat could use this data to communicate with clients around this time by sending them appropriate notifications such as healthy snack suggestion as they are likely to reach for a snack after their most active hour.    
 
 In conclusion, Bellabeat can focus their marketing strategy on showing people how their Time watch helps individuals and does not take a one size fits all approach when providing clients with information.
 
 # Further Research
-I would search for countries with increasing growth in GDP and identifying whether people are sleeping less and working more due to higher levels of economic activity. I would then research whether these countries are also experiencing increasing obesity and levels and generally people eating more than they should. This could identify new target markets for a product like Bellabeat’s Time watch. 
+
+1. I would redo the analysis with a much larger sample and compare its results with the results from this study to check for consistency.
+
+2. I would search for country with increasing growth in GDP and identify whether people are sleeping less and working more due to higher levels of economic activity. I would then research whether these countries are also experiencing increasing obesity levels and more generally if people are eating more than they should. This could identify new target markets for a product like Bellabeat’s Time watch as people in these countries are likely to have an increasing disposable income.  
 
 
 # Reference List
