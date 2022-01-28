@@ -34,7 +34,7 @@ The purpose of this analysis is to analyze how people use their Fitbit smart dev
 After cleaning, and analyzing the data, I found that most smart watch users are active for only a few hours a day. This may indicate that most consumers of smart watches are not blue-collar workers. 
 Additionally, half of the participants (four out of eight) that provided BMI data were overweight and half (twelve out of twenty four) slept less than the recommended seven hours (How much sleep do I need?, 2019).  
 However, most users walked more than the recommended 5000 steps a day which is considered necessary as shown in a study done by the University of Texas (Lindsay Bottoms, The Conversation, 2021). 
-Bellabeat can focus their marketing strategy on showing how their Time watch caters to the individual needs of customers by providing them with suggestions to help them maintain a healthy body since most people buy smart watches without displays to track health related metrics.  
+Bellabeat can focus their marketing strategy on showing how their Time watch caters to the individual needs of customers by providing them with suggestions to help them maintain a healthy body since most people buy smart watches without displays to track health related metrics like levels of activity (Richter, no date).  
 
 # Introduction
 
@@ -117,6 +117,10 @@ Bradycardia (no date) Cedars-Sinai. Available at: https://www.cedars-sinai.org/h
 What heart rate is too high? Is 200 bpm bad? Chart (no date) MedicineNet. Available at: https://www.medicinenet.com/what_heart_rate_is_too_high/article.htm (Accessed: January 28, 2022).
 
 7.	Can overeating cause sleep disturbances? (2020) Sleep Foundation. Available at: https://www.sleepfoundation.org/physical-health/sleep-and-overeating (Accessed: January 28, 2022)
+
+8.	Richter, F. (no date) What smartwatches are actually used for, Statista Infographics. Available at: https://www.statista.com/chart/10783/use-cases-for-smartwatches/ (Accessed: January 28, 2022).
+
+
 
 
 
