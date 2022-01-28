@@ -85,4 +85,3 @@ geom_point()
 combined_data <- merge(daily_activity, weight_data, by="Id")
 n_distinct(combined_data$Id)
 ```
-
