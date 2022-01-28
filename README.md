@@ -19,6 +19,7 @@
 6.	How could these trends apply to Bellabeat's customers?
 7.	How could these trends help influence Bellabeat marketing strategy?
 
+
 # Contents
 1.	Executive Summary
 2.	Introduction
