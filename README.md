@@ -1,6 +1,6 @@
 # Project Files Guide and Narration of Objectives and Findings
 ## *In the documents above you will find:*
-1. Excel Files - The data used for this project. 
+1. Excel Files - Includes: how data was checked for integrity, how data was cleaned and  the data used for this project. 
 2. Process - A summary of the steps I took to complete this project from start to finish.
 3. R Queries - Analysis using R.
 4. README - The file you are presently reading which includes a narrative of the project objectives and findings.
@@ -119,6 +119,10 @@ What heart rate is too high? Is 200 bpm bad? Chart (no date) MedicineNet. Availa
 7.	Can overeating cause sleep disturbances? (2020) Sleep Foundation. Available at: https://www.sleepfoundation.org/physical-health/sleep-and-overeating (Accessed: January 28, 2022)
 
 8.	Richter, F. (no date) What smartwatches are actually used for, Statista Infographics. Available at: https://www.statista.com/chart/10783/use-cases-for-smartwatches/ (Accessed: January 28, 2022).
+
+9. Möbius (no date) Kaggle.com. Available at: https://www.kaggle.com/arashnic/datasets (Accessed: January 28, 2022).
+
+	
 
 
 
