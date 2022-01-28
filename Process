@@ -1,8 +1,8 @@
 1.	Read requirements of the project and highlighted important information such as:
--	Identifying the key stakeholders
--	Products/services the company provides
--	Finding the objectives of the project
--	Methods presently used to meet those objectives
+ -Identifying the key stakeholders
+ -Products/services the company provides
+ -Finding the objectives of the project
+ -Methods presently used to meet those objectives
 2.	I went to the Bellabeat’s website and took notes about the company and their products. 
 3.	Downloaded the dataset that I was directed to by a co-founder of Bellabeat. I then looked over the data to get an idea of the size of the dataset and looked at the column headers to get a better idea of the type of data I would be dealing with. 
 4.	 Cleaned the data in MS Excel by spot checking the data for anomalies, separating time and date of some files to better analyze the data in SQL and R. 
