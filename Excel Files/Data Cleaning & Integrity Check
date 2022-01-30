@@ -2,8 +2,8 @@ Data Integrity
 
 The metadata on Kaggle shows that Mobius is the owner of the data. 
 Therefore, it should be original data attained by Mobius. 
-I will need to clean the data by sorting and filtering, looking for anomalies to ensure its reliability. 
-I will read the headers and some values to check if it is comprehensive.
+I have cleaned the data by sorting and filtering, looking for anomalies(such as nulls) to ensure its reliability. 
+I have read the headers and some values to check if it is comprehensive.
 Although the data is from December of 2020, it appears to still be current as I have not found any significant changes to similar smart devices. 
 
 Data Cleaning
