@@ -96,7 +96,7 @@ In conclusion, Bellabeat can focus their marketing strategy on showing people ho
 
 1. I would redo the analysis with a much larger sample and compare its results with the results from this study to check for consistency.
 
-2. I would search for country with increasing growth in GDP and identify whether people are sleeping less and working more due to higher levels of economic activity. I would then research whether these countries are also experiencing increasing obesity levels and more generally if people are eating more than they should. This could identify new target markets for a product like Bellabeat’s Time watch as people in these countries are likely to have an increasing disposable income.  
+2. I would search for a country with increasing growth in GDP and identify whether people are sleeping less and working more due to higher levels of economic activity. I would then research whether these countries are also experiencing increasing obesity levels and more generally if people are eating more than they should. This could identify new target markets for a product like Bellabeat’s Time watch as people in these countries are likely to have increasing disposable incomes and therefore more likely to purchase Time watches when they are aware of its benefits.
 
 
 # Reference List
